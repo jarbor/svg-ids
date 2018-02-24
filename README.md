@@ -31,7 +31,7 @@ Run this single function to fix SVG IDs across the entire DOM.
 new SvgIds().makeUnique();
 ```
 
-If you prefer to restrict the scope of what `SvgIds` searches and fixes to a smaller portion of the DOM, simply pass a scoping element into the constructor>
+If you prefer to restrict the scope of what `SvgIds` searches and fixes to a smaller portion of the DOM, simply pass a scoping element into the constructor.
 ```js
 new SvgIds(element).makeUnique();
 ```
