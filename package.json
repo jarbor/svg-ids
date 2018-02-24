@@ -1,0 +1,15 @@
+{
+  "name": "unique-svg-ids",
+  "version": "1.0.0",
+  "description": "Deduplicate IDs found across multiple SVGs in the DOM and make browsers happy.",
+  "main": "unique-svg-ids.js",
+  "repository": "https://github.com/jsneden/unique-svg-ids.git",
+  "author": "Jeff Sneden <jeff@agencyautonomous.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^3.11.0"
+  }
+}
